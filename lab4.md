@@ -15,7 +15,7 @@
 
 **2. Report the following things related to the document you found:**
  
-**(Introduction)**
+  **(Introduction)**
 * What is the project?
   * It's a drone-aided system for monitoring the health of crops with an infrared camera and a web interface.
 * Overall description of the product (=what is it? can you understand it?)
@@ -23,11 +23,16 @@
   * The crops are then uploaded to a server and processed
   * The user can then view the images through a web interface
 * Target audience (of the document)?
-  * The document is targeted towards whoever needs a detailed specification of the system
-  * The document states that it serves as a tool to explain the system to a collaborator development team
+  * The document is targeted towards the school personnel that are a part of the course the project is a part of, and whoever needs a detailed specification of the system
+  * It also serves as a tool to explain the system to a collaborator development team
 * The situation? Motivation?
+  * Farmers need a simple system to see what's going on in the different parts of a large field and a drone will aid in that
 * Structure
-  * Compare the structure of the document with the template provided for the course group work. How does it differ? Is there more? Less? (check also the contents and structure of SRS provided in Wikipedia:   http://en.wikipedia.org/wiki/Software_requirements_specification). 
+  * Compare the structure of the document with the template provided for the course group work. How does it differ? Is there more? Less? (check also the contents and structure of SRS provided in Wikipedia:   http://en.wikipedia.org/wiki/Software_requirements_specification).
+    * Overall it's similar, some differences: 
+      * It has a very elaborative introduction with parts like Document conventions and a list of Definitions and abbreviations
+      * There's no UML or class diagrams
+      * There is a list of vaguely defined quality attributes
 
 **(Use cases)**
 * What the system (will) do?
@@ -37,11 +42,13 @@
 
 **(General structure of the system)**
 * What chart techniques are used? Why?
-  * Testing 
+  * Use case diagrams and a table of requirements
 
 **(Functional & non-functional requirements)**
 * Listed?
+  * Yes
 * Measurable/traceability? (is it possible to check from the upcoming end product if a feature / requirement is implemented or not?)
+  * Yes
 
 **(How does (will) it look?)**
 * UI examples / views?
