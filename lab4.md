@@ -31,13 +31,13 @@
 
 **(Use cases)**
 * What the system (will) do?
-* asdasd
 * Use case diagram?
 * Actors?
 * How cases are described, how much details?
 
 **(General structure of the system)**
 * What chart techniques are used? Why?
+  * Testing 
 
 **(Functional & non-functional requirements)**
 * Listed?
