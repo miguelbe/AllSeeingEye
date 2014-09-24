@@ -36,9 +36,14 @@
 
 **(Use cases)**
 * What the system (will) do?
+  * The system allows farmers to plan drone flights, then process images taken by the drones to point out problem areas. This will all be done through a web interface.
 * Use case diagram?
+  * [Use case diagram.](http://i.imgur.com/N9JHDpY.png)
 * Actors?
+  * Users, logged in/privileged users, Administrators
 * How cases are described, how much details?
+  * Cases are described as one image with the basic user interface, as well as a list of options and functions available on the home page. Fairly detailed but not organized very well.
+
 
 **(General structure of the system)**
 * What chart techniques are used? Why?
