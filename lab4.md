@@ -57,18 +57,27 @@
 
 **(How does (will) it look?)**
 * UI examples / views?
+  * UI is a web interface, Pg. 9-11
 * Are the pictures mockups or screenshots from existing system?
+  * Yes
 * Transitions between views
+  * Not defined
 
 **(Process model? [might not exist, some times in a separate document called â€˜project planâ€™])**
 * Allocation of resources / budget?
+  * Has performance suggestions/limitations.
 * Risk Analysis?
+  * Describes assumptions about hardware. Part of the requirement is to make sure the drone has enough battery for a return flight.
 
 **(Your point of view)**
 * Is it a good/bad document? Why?
+  * It is a good document but it could be better. It seems to lack details in some points.
 * Consider also the quality of diagrams / illustrations
+  * 10/10
 * Do you think there would be enough information for you to build that system?
+  * No, because it lacks details and hardware hasn't been studied too well, lots of details missing.
 * Etc.
+  * Doesn't describe what "jobs" will actually do, besides "process" the images.
 
 ##### Return a link of your github repo to Tuubi. Don't forget to put a link to the document you analyzed. 
 
