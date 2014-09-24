@@ -2,6 +2,8 @@
 
 ###lab 4: modelling software requirements
 
+###Submission by Miguel Bejarano and Ville Kemppainen
+
 #### A. Get familiar with software requirements specification (SRS) documentation
 
 **1. Find existing requirements documentation** e.g. by querying
