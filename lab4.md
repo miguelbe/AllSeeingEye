@@ -31,6 +31,7 @@
 
 **(Use cases)**
 * What the system (will) do?
+* asdasd
 * Use case diagram?
 * Actors?
 * How cases are described, how much details?
