@@ -17,9 +17,14 @@
  
 **(Introduction)**
 * What is the project?
-  * test
+  * It's a drone-aided system for monitoring the health of crops with an infrared camera and a web interface.
 * Overall description of the product (=what is it? can you understand it?)
+  * The system has a UAV flying over a field of crops and capturing infrared images of the crops
+  * The crops are then uploaded to a server and processed
+  * The user can then view the images through a web interface
 * Target audience (of the document)?
+  * The document is targeted towards whoever needs a detailed specification of the system
+  * The document states that it serves as a tool to explain the system to a collaborator development team
 * The situation? Motivation?
 * Structure
   * Compare the structure of the document with the template provided for the course group work. How does it differ? Is there more? Less? (check also the contents and structure of SRS provided in Wikipedia:   http://en.wikipedia.org/wiki/Software_requirements_specification). 
