@@ -45,7 +45,11 @@ The application will handle all possible errors and exceptions to serve the user
 
 The application will be implemented for devices with all screen sizes running iOS version X or newer, Android version X or newer or Windows Phone version X or newer.
 
-Use cases
+##Use cases
+
+The user groups are 1. Normal user and 2. Registered user / student. The registered user will have some extra functionalities but mostly they are identical.
+
+###Use cases
 1. Open app / identify
 2. Search for room by code
 3. Search for room by name
@@ -56,6 +60,11 @@ Use cases
 8. Browse map
 9. Change floor
 10. Return to location
+
+###Use case diagram
+![Use cases](http://i.imgur.com/LSUttw5.png)
+
+
 
 ##Architecture stuff
 
