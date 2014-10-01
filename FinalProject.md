@@ -45,11 +45,11 @@ The application will handle all possible errors and exceptions to serve the user
 
 The application will be implemented for devices with all screen sizes running iOS version X or newer, Android version X or newer or Windows Phone version X or newer.
 
-##Users and use cases
+#Users and use cases
 
 The user groups are 1. Normal user and 2. Registered user / student. The registered user will have some extra functionalities but mostly they are identical.
 
-###Use cases
+##Use cases
 1. Open app / identify
 2. Search for room by code
 3. Search for room by name
@@ -61,12 +61,12 @@ The user groups are 1. Normal user and 2. Registered user / student. The registe
 9. Change floor
 10. Return to location
 
-###Use case diagram
+##Use case diagram
 ![Use cases](http://i.imgur.com/LSUttw5.png)
 
 
 
-##Architecture stuff
+#Architecture stuff
 
 The AllSeeingEye is an indoor positioning/navigating tool to help visitors of a building find rooms through a graphical user interface on a mobile application. It will position the user using (???) and let her know her location on the map and on the correct floor. The user can search for rooms and the application will point out the fastest route to the destination inside the building complex. The user can also navigate freely on the map, looking at the status of rooms to e.g. find a computer lab which is not currently in use.
 
@@ -76,7 +76,7 @@ Modules
  * Room: code, name, reserved or not, 
  * Route: start, destination (room id), vertices, user's position
 
-##User interface
+#User interface
  * Map view
    * search input
    * browse the map around
