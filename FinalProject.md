@@ -24,9 +24,9 @@ It will be ensured that any user at any given time submitting any search, if suc
 
 Any other communication with the server will update the view within a second.
 
-Upon opening the application, the latest and most accurate room info data will be loaded from ???. Every 5 minutes the application will query for updates in room info data.
+Upon opening the application, the latest and most accurate room info data will be loaded from the database that other school systems use. Every 5 minutes the application will query for updates in room info data.
 
-The RAM usage of the application will not exceed ???.
+The RAM usage of the application will not exceed 50MB.
 
 ##Security
 
