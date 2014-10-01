@@ -45,7 +45,7 @@ The application will handle all possible errors and exceptions to serve the user
 
 The application will be implemented for devices with all screen sizes running iOS version X or newer, Android version X or newer or Windows Phone version X or newer.
 
-##Use cases
+##Users and use cases
 
 The user groups are 1. Normal user and 2. Registered user / student. The registered user will have some extra functionalities but mostly they are identical.
 
