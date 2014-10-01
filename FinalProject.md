@@ -64,6 +64,19 @@ The user groups are 1. Normal user and 2. Registered user / student. The registe
 ##Use case diagram
 ![Use cases](http://i.imgur.com/LSUttw5.png)
 
+##Use case scenarios
+
+### 2. Search for room by code
+Description: The user searches for directions to a room by a room code
+Precondition: The user has opened the application and is in the map or extended search view.
+Postcondition: The user has a route generated on the map
+Main flow:
+1. User enters and submits a room code in the search box
+2. The system handles the search input
+3. Upon a successful match, a route is generated and drawn on the map
+Flow extensions:
+3a. The search doesn't find a match
+  3a1. User is notified that the search didn't find a room.
 
 
 #Architecture stuff
