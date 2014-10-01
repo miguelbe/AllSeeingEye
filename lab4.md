@@ -2,6 +2,8 @@
 
 ###lab 4: modelling software requirements
 
+###Submission by Miguel Bejarano and Ville Kemppainen
+
 #### A. Get familiar with software requirements specification (SRS) documentation
 
 **1. Find existing requirements documentation** e.g. by querying
@@ -15,41 +17,69 @@
 
 **2. Report the following things related to the document you found:**
  
-**(Introduction)**
+  **(Introduction)**
 * What is the project?
+  * It's a drone-aided system for monitoring the health of crops with an infrared camera and a web interface.
 * Overall description of the product (=what is it? can you understand it?)
+  * The system has a UAV flying over a field of crops and capturing infrared images of the crops
+  * The crops are then uploaded to a server and processed
+  * The user can then view the images through a web interface
 * Target audience (of the document)?
+  * The document is targeted towards the school personnel that are a part of the course the project is a part of, and whoever needs a detailed specification of the system
+  * It also serves as a tool to explain the system to a collaborator development team
 * The situation? Motivation?
+  * Farmers need a simple system to see what's going on in the different parts of a large field and a drone will aid in that
 * Structure
-  * Compare the structure of the document with the template provided for the course group work. How does it differ? Is there more? Less? (check also the contents and structure of SRS provided in Wikipedia:   http://en.wikipedia.org/wiki/Software_requirements_specification). 
+  * Compare the structure of the document with the template provided for the course group work. How does it differ? Is there more? Less? (check also the contents and structure of SRS provided in Wikipedia:   http://en.wikipedia.org/wiki/Software_requirements_specification).
+    * Overall it's similar, some differences: 
+      * It has a very elaborative introduction with parts like Document conventions and a list of Definitions and abbreviations
+      * There's no UML or class diagrams
+      * There is a list of vaguely defined quality attributes
 
 **(Use cases)**
 * What the system (will) do?
+  * The system allows farmers to plan drone flights, then process images taken by the drones to point out problem areas. This will all be done through a web interface.
 * Use case diagram?
+  * [Use case diagram.](http://i.imgur.com/N9JHDpY.png)
 * Actors?
+  * Users, logged in/privileged users, Administrators
 * How cases are described, how much details?
+  * Cases are described as one image with the basic user interface, as well as a list of options and functions available on the home page. Fairly detailed but not organized very well.
+
 
 **(General structure of the system)**
 * What chart techniques are used? Why?
+  * Use case diagrams and a table of requirements
 
 **(Functional & non-functional requirements)**
 * Listed?
+  * Yes
 * Measurable/traceability? (is it possible to check from the upcoming end product if a feature / requirement is implemented or not?)
+  * Yes
 
 **(How does (will) it look?)**
 * UI examples / views?
+  * UI is a web interface, Pg. 9-11
 * Are the pictures mockups or screenshots from existing system?
+  * Yes
 * Transitions between views
+  * Not defined
 
 **(Process model? [might not exist, some times in a separate document called â€˜project planâ€™])**
 * Allocation of resources / budget?
+  * Has performance suggestions/limitations.
 * Risk Analysis?
+  * Describes assumptions about hardware. Part of the requirement is to make sure the drone has enough battery for a return flight.
 
 **(Your point of view)**
 * Is it a good/bad document? Why?
+  * It is a good document but it could be better. It seems to lack details in some points.
 * Consider also the quality of diagrams / illustrations
+  * 10/10
 * Do you think there would be enough information for you to build that system?
+  * No, because it lacks details and hardware hasn't been studied too well, lots of details missing.
 * Etc.
+  * Doesn't describe what "jobs" will actually do, besides "process" the images.
 
 ##### Return a link of your github repo to Tuubi. Don't forget to put a link to the document you analyzed. 
 
