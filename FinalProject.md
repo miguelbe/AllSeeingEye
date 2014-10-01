@@ -40,6 +40,7 @@ The application will handle all possible errors and exceptions to serve the user
  * Internet connection is interrupted while going to destination => notify user and carry on without location data (route saved on the phone)
  * Positioning system connection to user failed/lost => notify user and ask to relocate/reidentify inside the building
  * Application's connection to server failed/lost => notify user about downtime and notify maintenance about failure
+ * Some crucial part of the system is down (e.g. communication between server and positioning hardware) => notify user about downtime and notify maintenance about failure
 
 ##Cross-platform
 
