@@ -46,7 +46,7 @@ The application will integrate with a user's university credentials if the user 
 
 ##Robustness
 
-    The application will handle all possible errors and exceptions to serve the user. Possible system failures and how they will be handled:
+The application will handle all possible errors and exceptions to serve the user. Possible system failures and how they will be handled:
  * Search is not successful => notify user and ask to search again
  * Internet connection is interrupted while going to destination => notify user and carry on without location data (route saved on the phone)
  * Positioning system connection to user failed/lost => notify user and ask to relocate/reidentify inside the building
