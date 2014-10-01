@@ -4,17 +4,6 @@
 
 Visitors to college campuses often have difficulty finding their way around based on room codes or maps. Our software solution would allow users to use a phone or tablet to get directions to wherever they need to go, using an interactive real-time map with step-by-step directions. They would type in a room code or class name and our software would give them directions. This system uses a combination of wifi triangulation and thermal cameras to find and track the users and their devices and requires an active wifi connection on the device. Then, we can use a website/application to guide this user to their desired location. There is also schedule integration that allows you to type in a class name and it will automatically find the room code and guide you there. Additional information such as “free rooms” or “computer lab” or “printer” would take you to the closest option, if it is encoded into the room’s metadata. 
 
- * Views
- * Map view
- * search input
- * browse the map around
- * locate yourself
- * view route
- * open room info
-   * Extended search
- * search by different room info
-   * Room info view
- * name, info, type
 
 #Non-functional requirements
 
@@ -68,7 +57,7 @@ Use cases
 9. Change floor
 10. Return to location
 
-#Architecture stuff
+##Architecture stuff
 
 The AllSeeingEye is an indoor positioning/navigating tool to help visitors of a building find rooms through a graphical user interface on a mobile application. It will position the user using (???) and let her know her location on the map and on the correct floor. The user can search for rooms and the application will point out the fastest route to the destination inside the building complex. The user can also navigate freely on the map, looking at the status of rooms to e.g. find a computer lab which is not currently in use.
 
@@ -77,4 +66,22 @@ Modules
  * User: position, floor, room/part of building
  * Room: code, name, reserved or not, 
  * Route: start, destination (room id), vertices, user's position
+
+##User interface
+ * Map view
+   * search input
+   * browse the map around
+   * locate yourself
+   * view route
+   * open room info
+ * Extended search
+   * search by different room info
+ * Room info view
+   * name, info, type
+
+
+
+
+
+
 
