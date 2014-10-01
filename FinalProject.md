@@ -61,8 +61,10 @@ The user groups are 1. Normal user and 2. Registered user / student. The registe
 9. Change floor
 10. Return to location
 
+
 ##Use case diagram
 ![Use cases](http://i.imgur.com/LSUttw5.png)
+
 
 ##Use case scenarios
 
@@ -71,12 +73,36 @@ Description: The user searches for directions to a room by a room code
 Precondition: The user has opened the application and is in the map or extended search view.
 Postcondition: The user has a route generated on the map
 Main flow:
-1. User enters and submits a room code in the search box
-2. The system handles the search input
-3. Upon a successful match, a route is generated and drawn on the map
-Flow extensions:
-3a. The search doesn't find a match
-  3a1. User is notified that the search didn't find a room.
+ 1. User enters and submits a room code in the search box
+ 2. The system handles the search input
+ 3. Upon a successful match, a route is generated and drawn on the map
+
+Alternate flows:
+ 1. No search match
+   1. User enters and submits a room code in the search box
+   2. The system handles the search input but finds no room to match the given code
+   3. User is notified
+
+### 6. Open room info
+Description: The user opens a room information window from the map
+Precondition: The user has opened the application and is in the map view.
+Postcondition: The user is in the room info view
+Main flow:
+ 1. User taps a room on the map
+ 2. A room info window opens
+
+ 
+### 10. Return to location
+Description: The user has drifted off the map and wants to see her own position again
+Precondition: The user has opened the application and is in the map view.
+Postcondition: The map view is aligned to the user's position
+Main flow:
+ 1. User taps "Return to location" button
+ 2. The map view moves to user's position
+Alternate flows:
+ 1. User is in a different floor from the viewed one
+   1. User taps "Return to location" button
+   2. The map view changes floor and goes to user's position
 
 
 #Architecture stuff
