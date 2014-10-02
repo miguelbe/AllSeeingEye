@@ -117,11 +117,8 @@ Modules
  * Route: start, destination (room id), vertices, user's position
 
 #User interface
- * Map view
 ![mapview](http://i.imgur.com/hKzOwIw.jpg)
- * Extended search
 ![mapview](http://i.imgur.com/NjXNxiw.jpg)
- * Room info view
 ![mapview](http://i.imgur.com/PzB2cpW.jpg)
 
 
