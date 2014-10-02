@@ -123,11 +123,13 @@ Modules
    * locate yourself
    * view route
    * open room info
- ![mapview](http://i.imgur.com/hKzOwIw.jpg)
+![mapview](http://i.imgur.com/hKzOwIw.jpg)
  * Extended search
    * search by different room info
+![mapview](http://i.imgur.com/NjXNxiw.jpg)
  * Room info view
    * name, info, type
+![mapview](http://i.imgur.com/PzB2cpW.jpg)
 
 
 
