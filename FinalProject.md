@@ -4,6 +4,17 @@
 
 Visitors to college campuses often have difficulty finding their way around based on room codes or maps. Our software solution would allow users to use a phone or tablet to get directions to wherever they need to go, using an interactive real-time map with step-by-step directions. They would type in a room code or class name and our software would give them directions. This system uses a combination of wifi triangulation and thermal cameras to find and track the users and their devices and requires an active wifi connection on the device. Then, we can use a website/application to guide this user to their desired location. There is also schedule integration that allows you to type in a class name and it will automatically find the room code and guide you there. Additional information such as “free rooms” or “computer lab” or “printer” would take you to the closest option, if it is encoded into the room’s metadata. 
 
+#System Architecture
+
+## High-level overview
+
+The All Seeing Eye system is a complicated navigation system, but it can be broken up into three interconnected modules. The tracking system uses a combination of wifi and thermal cameras to find users on demand and to follow them on their rute to make sure they're headed in the right direction. On the back end, there's a pathfinding system that will take real-time information of the student's location and match it to the static information of the building's layout. The client-facing system has shows a simplified version of the building layout, the student's current location, and requires two-way communication to and from the back-end server.
+
+## Main modules and their functions
+
+1. Tracking system
+2. Pathfinding
+3. App interface
 
 #Non-functional requirements
 
