@@ -109,7 +109,6 @@ A normal connection would work like this:
  * WifiTracker: in charge of tracking the Student's device using Wifi APs
  * ThermalTracker: in charge of tracking the Student using Thermal cameras
  
-
 # 5. Requirements
 
 ## Functional Requirements
@@ -120,18 +119,20 @@ A normal connection would work like this:
  * A student without a schedule will have no Events that can be suggested to him. The application will work in a "logged out" state
  * Thermal cameras must have a clear line of view to the students for normal tracking purposes
  * Wifi must be available campus-wide at a reasonable strength for finding and tracking
-
+ * The Application must warn the user if the Wifi connection is lost, since this service doesn't work without two-way communication between the device and the server
+ * The Application must cache instructions for limited functionality if the Wifi connection *is* lost
+ * The campus must have at least two Rooms in order for pathfinding to work
 
 ## Non-Functional Requirements
 
-## Usability
+### Usability
 
 The application will utilize a simple user interface which offers all the basic functionalities (basic search, map, room info by clicking rooms on the map) in a single view. It will also use innovative interaction design and automated functionalities, such as offering the route immediately if a search is successful and adjusting the route if needed. The map view will use color codes to quickly see available/unavailable rooms and the map in general will be designed using familiar, simple symbolics and smooth visual design to ensure ease of use.
 
 Tests will be conducted and 90% of users will not have difficulty figuring out the functionalities of the application. This means that 90% of users will immediately after opening the application and locating be able to use a functionality such as getting the directions to a room by code, browsing the map for a nearby available room or otherwise viewing the room info.
 
 
-## Capacity & Performance
+### Capacity And Performance
 
 The application will be designed to be able to handle up to 1000 users at a time without exceeding the server computer's computation power. This will be achieved by taking database consistency into account, normalizing databases and optimizing queries and requests.
 
@@ -145,11 +146,11 @@ Upon opening the application, the latest and most accurate room info data will b
 
 The RAM usage of the application will not exceed 50MB.
 
-## Security
+### Security
 
 The application will integrate with a user's university credentials if the user is logged in through the student wi-fi. The session data used by the application cannot be accessed by a third party through a flaw in the AllSeeingEye system, as application security will be implemented at all stages of development and tested thoroughly. The student will also approve of tracking just for pathfinding purposes, and will approve cookies to be saved in the device for metadata storage.
 
-## Robustness
+### Robustness
 
 The application will handle all possible errors and exceptions to serve the user. Possible system failures and how they will be handled:
  * Search is not successful => notify user and ask to search again
@@ -158,7 +159,7 @@ The application will handle all possible errors and exceptions to serve the user
  * Application's connection to server failed/lost => notify user about downtime and notify maintenance about failure
  * Some crucial part of the system is down (e.g. communication between server and positioning hardware) => notify user about downtime and notify maintenance about failure
 
-## Cross-Platform
+### Cross-Platform
 
 The application will be implemented for devices with all screen sizes running iOS version X or newer, Android version X or newer or Windows Phone version X or newer.
 
@@ -174,7 +175,14 @@ The user groups are 1. Normal user and 2. Registered user / student. The registe
 
 # 7. Project Management And Self Reflection
 
+Working hours
+Miguel: 8 hours
+Marina: 3 hours
+Ville: 10 hours
 
+Total: 21 hours
+
+In general, we're happy with the project outcome. The product concept itself is simple and serves a real need that could be applied into reality. Probably there are some deficiencies and to actually sell this product, the requirements should be improved to meet a level of quality that we couldn't achieve given the time and our level of expertise. What comes to the workflow, we divided the workload well, had good communication and worked towards the end result in an organized and efficient manner.
 
 
 
