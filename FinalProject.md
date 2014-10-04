@@ -2,14 +2,14 @@
     
 # 1. AllSeeingEye 
 
-Software Engineering TJ00AA65-3005 Final Project: Analysis and Requirements Practice
+## Software Engineering TJ00AA65-3005 Final Project: Analysis and Requirements Practice
 
-Title: AllSeeingEye: Requirements Of The System"
-Class: Software Engineering TJ00AA65-3005
-Team Name: The Illuminati
-Team Members: Ville Kemppainen, Marina Asia, Miguel Bejarano
-Date: 5.10.2014
-Version History: [Available via GitHub](https://github.com/miguelbe/AllSeeingEye/commits/master/FinalProject.md)
+ * Title: AllSeeingEye: Requirements Of The System"
+ * Class: Software Engineering TJ00AA65-3005
+ * Team Name: The Illuminati
+ * Team Members: Ville Kemppainen, Marina Asia, Miguel Bejarano
+ * Date: 5.10.2014
+ * Version History: [Available via GitHub](https://github.com/miguelbe/AllSeeingEye/commits/master/FinalProject.md)
 
 # 2. Introduction
 
