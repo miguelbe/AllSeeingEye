@@ -178,11 +178,11 @@ The user groups are 1. Normal user and 2. Registered user / student. The registe
 ## Working hours
  * Miguel: 8 hours
  * Marina: 3 hours
- * Ville: 10 hours
+ * Ville: 8 hours
 
 Total: 21 hours
 
 In general, we're happy with the project outcome. The product concept itself is simple and serves a real need that could be applied into reality. Probably there are some deficiencies and to actually sell this product, the requirements should be improved to meet a level of quality that we couldn't achieve given the time and our level of expertise. What comes to the workflow, we divided the workload well, had good communication and worked towards the end result in an organized and efficient manner.
 
-
+( ͡° ͜ʖ ͡°)
 
