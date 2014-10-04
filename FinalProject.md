@@ -10,6 +10,18 @@ Visitors to college campuses often have difficulty finding their way around base
 
 The All Seeing Eye system is a complicated navigation system, but it can be broken up into three interconnected modules. The tracking system uses a combination of wifi and thermal cameras to find users on demand and to follow them on their rute to make sure they're headed in the right direction. On the back end, there's a pathfinding system that will take real-time information of the student's location and match it to the static information of the building's layout. The client-facing system has shows a simplified version of the building layout, the student's current location, and requires two-way communication to and from the back-end server.
 
+A normal connection would work like this:
+
+1. A student inside the building joins the wifi provided by the campus, logging in using their own credentials (username and password).
+2. They launch the AllSeeingEye application, downloading it first if they don't have it already.
+3. The application establishes a connection with the AllSeeingEye server
+4. The application then provides the wifi IP and MAC addresses of the device
+5. The AllSeeingEye server finds the closest wifi Access Points to the device, including the one it is actually connected to
+6. The server also finds the username associated with the device's IP address
+7. The system then gets the student's schedule and uses the wifi location to find the student through the more-accurate thermal cameras.
+8. The server automatically finds and suggests a path from the student's current location to their next class
+9. The server stops tracking once the student arrives in the classroom and the application on their device gives a success message.
+
 ## Main modules and their functions
 
 1. Tracking system
