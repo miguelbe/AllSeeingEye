@@ -17,6 +17,16 @@ Visitors to college campuses often have difficulty finding their way around base
 
 # 3. Use cases
 
+1. Open app / identify
+2. Search for room by code
+3. Search for room by name
+4. Search for room by status
+5. Search for class (student/registered user)
+6. Open room info
+7. Close room info
+8. Browse map
+9. Change floor
+
 ## Use case diagram
 
 ![Use cases](http://i.imgur.com/LSUttw5.png)
@@ -27,16 +37,6 @@ Visitors to college campuses often have difficulty finding their way around base
 2. Administrators, superusers in charge of updating the system and keeping it running
 
 ## Use Case Scenarios
-
-1. Open app / identify
-2. Search for room by code
-3. Search for room by name
-4. Search for room by status
-5. Search for class (student/registered user)
-6. Open room info
-7. Close room info
-8. Browse map
-9. Change floor
 
 ### 2. Search for room by code
 Description: The user searches for directions to a room by a room code
