@@ -96,6 +96,8 @@ A normal connection would work like this:
 
 ![UML Diagram](http://www.gliffy.com/go/publish/image/6260002/L.png)
 
+### Modules
+
  * AllSeeingEye: Main class that the entire system depends on. This is the central part of the server.
  * AppInterface: In charge of communicating with the application. This would be listening using a TCP socket for incoming connections.
  * WifiFinder: In charge of first finding the student, works before knowing the student's username or room-specific location. This would interface with the AllSeeingEye directly.
@@ -112,14 +114,13 @@ A normal connection would work like this:
 
 ## Functional Requirements
 
+ * Student must be on campus when using the application
+ * Student must be using a device that has a Wifi chip and connected to the WLAN
+ * WifiFinder must be able to locate the student at an accuracy of 1m so the Thermal Cameras can start tracking them
+ * A student without a schedule will have no Events that can be suggested to him. The application will work in a "logged out" state
+ * Thermal cameras must have a clear line of view to the students for normal tracking purposes
+ * Wifi must be available campus-wide at a reasonable strength for finding and tracking
 
-
-
-
-Modules
- * User: position, floor, room/part of building
- * Room: code, name, reserved or not, 
- * Route: start, destination (room id), vertices, user's position
 
 ## Non-Functional Requirements
 
@@ -146,7 +147,7 @@ The RAM usage of the application will not exceed 50MB.
 
 ## Security
 
-The application will integrate with a user's university credentials if the user is logged in through the student wi-fi. The session data used by the application cannot be accessed by a third party through a flaw in the AllSeeingEye system, as application security will be implemented at all stages of development and tested thoroughly.
+The application will integrate with a user's university credentials if the user is logged in through the student wi-fi. The session data used by the application cannot be accessed by a third party through a flaw in the AllSeeingEye system, as application security will be implemented at all stages of development and tested thoroughly. The student will also approve of tracking just for pathfinding purposes, and will approve cookies to be saved in the device for metadata storage.
 
 ## Robustness
 
