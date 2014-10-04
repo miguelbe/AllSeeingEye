@@ -175,10 +175,10 @@ The user groups are 1. Normal user and 2. Registered user / student. The registe
 
 # 7. Project Management And Self Reflection
 
-Working hours
-Miguel: 8 hours
-Marina: 3 hours
-Ville: 10 hours
+## Working hours
+ * Miguel: 8 hours
+ * Marina: 3 hours
+ * Ville: 10 hours
 
 Total: 21 hours
 
