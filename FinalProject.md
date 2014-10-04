@@ -94,19 +94,26 @@ A normal connection would work like this:
 
 ## Main modules and their functions
 
-1. Tracking system
-2. Pathfinding
-3. App interface
+![UML Diagram](http://www.gliffy.com/go/publish/image/6260002/L.png)
+
+ * AllSeeingEye: Main class that the entire system depends on. This is the central part of the server.
+ * AppInterface: In charge of communicating with the application. This would be listening using a TCP socket for incoming connections.
+ * WifiFinder: In charge of first finding the student, works before knowing the student's username or room-specific location. This would interface with the AllSeeingEye directly.
+ * Student: Main class for user information. Exposes the location information to the AllSeeingEye without showing implementation details. Has a schedule.
+ * Campus: Main class for the building information. Specifies a physical boundry for the tracking to be functional, contains a schedule that is a superset of what any individual Student would have.
+ * Room: A physical subdivision of the Campus. Physical boundries specified by x/y/z coordinates. Contains data such as the room code, computers available, maximum occupancy. Also has its own schedule.
+ * Event: Container for what would be a regular school class, something composed of a start time, end time, name, teaching instructor, and possibly other kinds of metadata. A Student, Campus or Room could have its own schedule, stored as an array of Events or interfaced through a Database, for example.
+ * TrackingService: Abstracts the functions for tracking Students. This would coordinate the passing back-and-forth between the thermal cameras and the Wifi Access Points in case either one gets lost temporarily. It would also be responsible for decision-making if the Thermal and Wifi tracking systems start giving contradicting information
+ * WifiTracker: in charge of tracking the Student's device using Wifi APs
+ * ThermalTracker: in charge of tracking the Student using Thermal cameras
+ 
 
 # 5. Requirements
 
 ## Functional Requirements
 
-[UML Diagram description goes here]
 
-#Architecture stuff
 
-The AllSeeingEye is an indoor positioning/navigating tool to help visitors of a building find rooms through a graphical user interface on a mobile application. It will position the user using (???) and let her know her location on the map and on the correct floor. The user can search for rooms and the application will point out the fastest route to the destination inside the building complex. The user can also navigate freely on the map, looking at the status of rooms to e.g. find a computer lab which is not currently in use.
 
 
 Modules
